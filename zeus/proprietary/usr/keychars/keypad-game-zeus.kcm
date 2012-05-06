@@ -1,10 +1,16 @@
-type SPECIAL_FUNCTION
+# file surf_keypad.kl
+# this corresponds to kernel/arch/arm/mach-msm/board-semc_zeus.c
+# 
+# defines for values are in frameworks/base/include/ui/KeycodeLabels.h
 
-key BUTTON_SELECT {
-    base:                               none
-    alt:                                none
-}
+# KEY_VOLUMEUP, KEY_VOLUMEDOWN
+key 115   VOLUME_UP         WAKE_DROPPED
+key 114   VOLUME_DOWN       WAKE_DROPPED
 
-key BUTTON_START {
-    base:                               none
-}
+# BTN_SELECT
+key 314   BUTTON_SELECT
+
+# KEY_ENTER / Start
+#   For now, leave this one as select so that
+#   keypad DPAD navigation is possible
+key 28    BUTTON_START
