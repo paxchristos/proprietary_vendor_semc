@@ -108,4 +108,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/zeusc/proprietary/framework/com.playstation.playstationcertified.jar:system/framework/com.playstation.playstationcertified.jar \
     vendor/semc/zeusc/proprietary/framework/playstationcertified.jar:system/framework/playstationcertified.jar \
     vendor/semc/zeusc/proprietary/framework/xperiaplaycertified.jar:system/framework/xperiaplaycertified.jar \
+    vendor/semc/zeusc/proprietary/app/com.sonyericsson.androidapp.storefront.apk:system/app/com.sonyericsson.androidapp.storefront.apk \
+    vendor/semc/zeusc/proprietary/app/preinstalledservice.apk:system/app/preinstalledservice.apk \
     vendor/semc/zeusc/proprietary/lib/librsasigner.so:system/lib/librsasigner.so
