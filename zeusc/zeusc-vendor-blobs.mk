@@ -16,7 +16,8 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES := \
-    vendor/semc/zeusc/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so
+    vendor/semc/zeusc/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
+    vendor/semc/zeusc/proprietary/lib/libv8.so:obj/lib/libv8.so
 
 PRODUCT_COPY_FILES += \
     vendor/semc/zeusc/proprietary/usr/idc/cy8ctma300_touch.idc:system/usr/idc/cy8ctma300_touch.idc \
@@ -68,14 +69,11 @@ PRODUCT_COPY_FILES += \
     vendor/semc/zeusc/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/semc/zeusc/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     vendor/semc/zeusc/proprietary/bin/netmgrd:system/bin/netmgrd \
-    vendor/semc/zeusc/proprietary/etc/permissions/android.hardware.camera.front.xml:system/etc/permissions/android.hardware.camera.front.xml \
     vendor/semc/zeusc/proprietary/lib/hw/camera.semc.so:system/lib/hw/camera.semc.so \
     vendor/semc/zeusc/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/semc/zeusc/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/semc/zeusc/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/semc/zeusc/proprietary/etc/firmware/bcm4329.hcd:system/etc/firmware/bcm4329.hcd \
-    vendor/semc/zeusc/proprietary/etc/firmware/fw_bcm4329.bin:system/etc/firmware/fw_bcm4329.bin \
-    vendor/semc/zeusc/proprietary/etc/firmware/fw_bcm4329_apsta.bin:system/etc/firmware/fw_bcm4329_apsta.bin \
     vendor/semc/zeusc/proprietary/etc/firmware/vidc_720p_command_control.fw:system/etc/firmware/vidc_720p_command_control.fw \
     vendor/semc/zeusc/proprietary/etc/firmware/vidc_720p_h263_dec_mc.fw:system/etc/firmware/vidc_720p_h263_dec_mc.fw \
     vendor/semc/zeusc/proprietary/etc/firmware/vidc_720p_h264_dec_mc.fw:system/etc/firmware/vidc_720p_h264_dec_mc.fw \
@@ -86,13 +84,13 @@ PRODUCT_COPY_FILES += \
     vendor/semc/zeusc/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     vendor/semc/zeusc/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
     vendor/semc/zeusc/proprietary/etc/wifi/calibration:system/etc/wifi/calibration \
-    vendor/semc/zeusc/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
     vendor/semc/zeusc/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/semc/zeusc/proprietary/etc/sensors.conf:system/etc/sensors.conf \
     vendor/semc/zeusc/proprietary/etc/vold.fstab:system/etc/vold.fstab \
     vendor/semc/zeusc/proprietary/bin/akmd8975:system/bin/akmd8975 \
     vendor/semc/zeusc/proprietary/bin/chargemon:system/bin/chargemon \
     vendor/semc/zeusc/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
+    vendor/semc/zeusc/proprietary/lib/libv8.so:system/lib/libv8.so \
     vendor/semc/zeusc/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
     vendor/semc/zeusc/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/semc/zeusc/proprietary/lib/libgsl.so:system/lib/libgsl.so \
